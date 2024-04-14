@@ -67,12 +67,12 @@ const Login = () => {
           </button>
         </form>
         <div className="mt-4">
-          <p className="mb-2 text-center">Already have an account?<a href="./Signup" className="text-black hover:underline font-bold">Sign Up</a></p>
-          <p className="mb-2 text-center">OR</p>
-          <button className="w-full bg-white border border-gray-300 text-black px-4 py-2 rounded-md shadow-md flex items-center justify-center  hover:bg-gray-300">
-            Continue with Google 
-          </button>
+          <p className="mb-2 text-center">Don't have an account? <a href="./signup" className="text-black hover:underline">Sign Up</a></p>
         </div>
+        <div className="mb-2 text-center">OR</div>
+        <button className="w-full bg-white border border-gray-300 text-black px-4 py-2 rounded-md shadow-md flex items-center justify-center hover:bg-gray-300">
+          Continue with Google 
+        </button>
       </div>
     </div>
   );
